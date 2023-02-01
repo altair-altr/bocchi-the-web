@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font: bold;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 700;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-position-x: center;
+  background-color: black;
+}
+.ref-page {
+  background-image: url(../assets/images/kessoku_band_full.jpg);
+  background-size: contain !important;
+  max-width: 100vw !important;
+  max-height: 100vh !important;
+}
+.home-page {
+  background-image: url(../assets/images/cover.jpg);
+}
+
+.bg-pink {
+  background: rgb(255, 245, 0);
+  background: linear-gradient(
+    to right,
+    rgba(255, 0, 220, 1) 0%,
+    rgba(255, 0, 220, 1) 25%,
+    rgba(255, 245, 0, 1) 25%,
+    rgba(255, 245, 0, 1) 50%,
+    rgba(0, 0, 255, 1) 51%,
+    rgba(0, 0, 255, 1) 75%,
+    rgba(255, 0, 0, 1) 76%,
+    rgba(255, 0, 0, 1) 100%
+  );
+}
+.btr-logo {
+  color: black;
+  width: 15vh;
+  margin-right: 10px;
+}
+
+.main-heading {
+  color: black;
+  font-size: 150px;
+  font-weight: 700;
+}
+.paragraft {
+  color: yellow;
+  background-color: black;
+  background-size: auto;
+  margin-left: 10px;
+  font-weight: 700;
+}
+
+.card-img-top {
+  height: 250px;
+}
+.card-title {
+  font-weight: 700;
+}
+.fw-700 {
+  font-weight: 700;
+}
+
+.card-text {
+  height: 100px;
+}
+/* Home */
+.img-cover {
+  z-index: 0;
+}
+.home-h1 {
+  color: yellow;
+  font-weight: 900;
+  font-size: 100px;
+  z-index: 1;
+}
+.img-kessoku-logo {
+  max-width: 250px;
+  float: right;
+  color: yellow;
+  margin-right: 60px;
+  margin-top: 10px;
+}
